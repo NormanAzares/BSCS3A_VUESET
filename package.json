@@ -1,0 +1,29 @@
+{
+  "name": "vueset-component",
+  "version": "0.0.1",
+  "main": "./dist/vueset-component.umd.js",
+  "module": "./dist/vueset-component.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/vueset-component.mjs",
+      "require": "./dist/vueset-component.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.8"
+  }
+}
