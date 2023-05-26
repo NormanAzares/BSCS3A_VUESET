@@ -1,6 +1,6 @@
 # vueset-component
 
-This template should help get you started developing with Vue 3 in Vite.
+Purpose of this Project: CS202: Semestral Project [Component Library Vue JS implementations]
 
 ## Recommended IDE Setup
 
