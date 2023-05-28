@@ -1,4 +1,5 @@
 import VSButton from './Button/VSButton.vue';
+import VSSelect from './Select/VSSelect.vue';
 
 
-export default { VSButton };
+export default { VSButton, VSSelect };
