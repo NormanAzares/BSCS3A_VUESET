@@ -49,6 +49,7 @@
     border-radius: 16px;
     border: 1px solid black;
     height: 16px;
+    width: 500px;
   }
   
   .c-Progress__fill {
