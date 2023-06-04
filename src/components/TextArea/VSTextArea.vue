@@ -1,6 +1,6 @@
 <template>
     <div class="c-Textarea" :class="textareaClassObject">
-      <textarea>
+      <textarea
         ref="textarea"
         class="c-Textarea__input"
         :value="text"
@@ -10,7 +10,7 @@
         :aria-label="label"
         :placeholder="placeholder"
         @input="text = $event.target.value"
-      </textarea>
+      />
       <span
         class="c-Textarea__label"
         :title="label"
