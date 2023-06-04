@@ -39,7 +39,7 @@
       name="message"
       required
     />
-    <p>Textarea value: {{ textareaValue }}</p>
+    
 
 
   </div>
