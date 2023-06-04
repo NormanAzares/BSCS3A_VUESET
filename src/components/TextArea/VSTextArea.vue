@@ -170,7 +170,7 @@
   
   .c-Textarea__input:invalid {
     border-color: #4794e0;
-    color: #4794e05;
+    color: #4794e0;
   }
   
   .c-Textarea__input:invalid:focus {
