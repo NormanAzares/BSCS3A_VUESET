@@ -16,9 +16,14 @@ export default {
   methods: {
     toggleSwitch() {
       this.$emit('input', !this.value);
+      this.$nextTick(() => {
+        console.log(this.value);
+      });
     }
-  }
+  },
+
 }
+
 </script>
 
 <style scoped>
