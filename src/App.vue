@@ -1,18 +1,9 @@
 <template>
   <div style="margin-bottom: 16px">
-    <VS-Button>Default Blue</VS-Button>
+    <VSButton label="Default" />
   </div>
   <div style="margin-bottom: 16px">
-    <VS-Button type="light">Light Blue</VS-Button>
-  </div>
-  <div style="margin-bottom: 16px">
-    <VS-Button type="dark">Light Blue</VS-Button>
-  </div>
-  <div style="margin-bottom: 16px">
-    <VS-Button type="blue1">Light Blue</VS-Button>
-  </div>
-  <div style="margin-bottom: 16px">
-    <VS-Button type="blue2">Light Blue</VS-Button>
+    <VSButton label="Outlined" type="outlined" />
   </div>
   <VSSelect type="light" isOutline>
     <option value="item1">Item 1</option>

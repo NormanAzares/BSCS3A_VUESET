@@ -1,63 +1,124 @@
 <template>
-    <button class="button" :class="type" @click="$emit('click')">
-        <slot></slot>
+    <button :class="buttonClassObject" type="button" :title="title" :aria-label="title" :disabled="disabled"
+        @click="onClick($event)">
+        <span>{{ label }}</span>
     </button>
 </template>
-  
 <script>
 export default {
     name: 'Button',
     props: {
+        label: {
+            type: String,
+            required: false,
+            default: undefined,
+        },
+        title: {
+            type: String,
+            required: false,
+            default: undefined,
+        },
         type: {
             type: String,
-            default: 'primary'
-        }
-    }
+            required: false,
+            default: 'default',
+            validator(type) {
+                return ['default', 'outlined', 'text'].includes(type)
+            },
+        },
+        disabled: {
+            type: Boolean,
+            required: false,
+            default: false,
+        },
+    },
+    emits: ['click'],
+    computed: {
+        buttonClassObject() {
+            return {
+                'is-default': this.type === 'default',
+                'is-outlined': this.type === 'outlined',
+                'is-text': this.type === 'text',
+            }
+        },
+    },
+    methods: {
+        onClick(event) {
+            this.$emit('click', event)
+        },
+    },
 }
 </script>
-  
 <style scoped>
-.button {
-    /* Custom button styles */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
+button {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 16px;
+    border-radius: 4px;
+    position: relative;
 }
 
-/* Blue color palette */
-.primary {
-    background-color: #007bff;
-    /* Default blue */
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+    background-color: black;
 }
 
-.light {
-    background-color: #57abfa;
-    /* Light blue */
+button:hover::before {
+    opacity: 0.1;
 }
 
-.dark {
-    background-color: #192e42;
-    /* Dark blue */
+button:active::before {
+    opacity: 0.2;
 }
 
-.blue1 {
-    background-color: #cce0ff;
-    /* Lighter blue */
+button.is-default {
+    background-color: rgb(48, 115, 179);
+    border: 1px solid black;
+    color: white;
 }
 
-.blue2 {
-    background-color: #4d88ff;
-    /* Darker blue */
+button.is-outlined {
+    background-color: transparent;
+    border: 1px solid rgb(7, 23, 247);
+    color: black;
 }
 
-/* Override button text color */
-.primary,
-.light,
-.dark,
-.blue1,
-.blue2 {
-    color: #fff;
+button.is-text {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+span {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}
+
+button.is-default:disabled,
+button.is-outlined:disabled,
+button.is-text:disabled {
+    border-color: #eeeeee;
+    background-color: #eeeeee;
+    cursor: not-allowed;
+}
+
+button:disabled::before {
+    display: none;
+}
+
+button:disabled>span {
+    color: #757575;
 }
 </style>
