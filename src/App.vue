@@ -1,4 +1,20 @@
 <template>
+  
+  <div style="margin-bottom: 16px">
+    <p>Default</p>
+    <VSCheckBox />
+  </div>
+  <div style="margin-bottom: 16px">
+    <p>State: {{ state }}</p>
+    <VSCheckBox label="Checkbox" v-model="state" />
+  </div>
+  <div style="margin-bottom: 16px">
+    <VSCheckBox label="Unchecked disabled" :modelValue="false" disabled />
+  </div>
+  <div style="margin-bottom: 16px">
+    <VSCheckBox label="Checked disabled" :modelValue="true" disabled />
+  </div>
+
   <div style="margin-bottom: 16px">
     <VSButton label="Default" />
   </div>
@@ -6,36 +22,18 @@
     <VSButton label="Outlined" type="outlined" />
   </div>
 
-
-  <VSSelect type="light" isUnderlined>
-    <option value="item1">Item 1</option> 
+  <VSSelect type="light" isOutline>
+    <option value="item1">Item 1</option>
     <option value="item2">Item 2</option>
     <option value="item3">Item 3</option>
   </VSSelect>
-
-
-
-
   <div>
     <VSRadioBox label="Option 1" name="option" value="option1"></VSRadioBox>
     <VSRadioBox label="Option 2" name="option" value="option2"></VSRadioBox>
     <VSRadioBox label="Option 3" name="option" value="option3"></VSRadioBox>
   </div>
 
-  <div>
-    <VSTextArea
-      v-model="textareaValue"
-      placeholder="Type your message here..."
-      name="message"
-      required
-    />
-
-  </div>
-
-
-
-
-
+  <!-- <VSSwitch v-model="value"></VSSwitch> -->
 </template>
 
 <script>
