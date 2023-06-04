@@ -20,6 +20,7 @@
     <VSRadioBox label="Option 1" name="option" value="option1"></VSRadioBox>
     <VSRadioBox label="Option 2" name="option" value="option2"></VSRadioBox>
     <VSRadioBox label="Option 3" name="option" value="option3"></VSRadioBox>
+  
   </div>
 
   <div>
@@ -32,7 +33,10 @@
 
   </div>
 
-
+  <div>
+    <vsSwitch v-model="switchValue" label="Toggle Switch" :disabled="isDisabled" />
+    <button @click="toggleDisabled">Toggle Disabled</button>
+  </div>
 
 
 
