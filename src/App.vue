@@ -32,7 +32,7 @@
   </div>
 
   <div>
-    <Textarea
+    <VSTextArea
       v-model="textareaValue"
       label="Enter your message"
       placeholder="Type your message here..."
@@ -40,8 +40,6 @@
       required
     />
     
-
-
   </div>
 
 
