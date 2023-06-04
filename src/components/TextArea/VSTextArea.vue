@@ -7,10 +7,10 @@
         :name="name"
         :required="required"
         :disabled="disabled"
-        :aria-label="label"
         :placeholder="placeholder"
         @input="text = $event.target.value"
       />
+      
       <span
         class="c-Textarea__label"
         :title="label"
@@ -169,16 +169,16 @@
   }
   
   .c-Textarea__input:invalid {
-    border-color: #e53935;
-    color: #e53935;
+    border-color: #4794e0;
+    color: #4794e05;
   }
   
   .c-Textarea__input:invalid:focus {
-    box-shadow: inset 0 0 0 1px #e53935;
+    box-shadow: inset 0 0 0 1px #4794e0;
   }
   
   .c-Textarea__input:invalid + .c-Textarea__label {
-    color: #e53935;
+    color: #4794e0;
   }
   
   .c-Textarea__input:disabled {

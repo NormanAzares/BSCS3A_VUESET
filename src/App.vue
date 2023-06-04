@@ -25,12 +25,11 @@
   <div>
     <VSTextArea
       v-model="textareaValue"
-      label="Enter your message"
       placeholder="Type your message here..."
       name="message"
       required
     />
-    
+
   </div>
 
 
