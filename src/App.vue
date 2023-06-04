@@ -5,18 +5,38 @@
   <div style="margin-bottom: 16px">
     <VSButton label="Outlined" type="outlined" />
   </div>
-  <VSSelect type="light" isOutline>
-    <option value="item1">Item 1</option>
+
+
+  <VSSelect type="light" isUnderlined>
+    <option value="item1">Item 1</option> 
     <option value="item2">Item 2</option>
     <option value="item3">Item 3</option>
   </VSSelect>
+
+
+
+
   <div>
     <VSRadioBox label="Option 1" name="option" value="option1"></VSRadioBox>
     <VSRadioBox label="Option 2" name="option" value="option2"></VSRadioBox>
     <VSRadioBox label="Option 3" name="option" value="option3"></VSRadioBox>
   </div>
 
-  <!-- <VSSwitch v-model="value"></VSSwitch> -->
+  <div>
+    <VSTextArea
+      v-model="textareaValue"
+      label="Enter your message"
+      placeholder="Type your message here..."
+      name="message"
+      required
+    />
+    
+  </div>
+
+
+
+
+
 </template>
 
 <script>

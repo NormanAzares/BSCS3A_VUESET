@@ -4,4 +4,7 @@ import VSRadioBox from './RadioBox/VSRadioBox.vue';
 import VSSwitch from './Switch/VSSwitch.vue';
 import VSForm from './Form/VSForm.vue';
 import VSDividers from './Dividers/VSDividers.vue';
-export default { VSButton, VSSelect, VSRadioBox, VSSwitch, VSForm, VSDividers};
+import VSTextArea from './TextArea/VSTextArea.vue'
+
+
+export default { VSButton, VSSelect, VSRadioBox, VSSwitch, VSForm, VSDividers, VSTextArea};
