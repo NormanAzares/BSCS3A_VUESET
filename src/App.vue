@@ -38,6 +38,10 @@
     <button @click="toggleDisabled">Toggle Disabled</button>
   </div>
 
+  <div>
+    <VSProgress :value="progressValue" :max="progressMax" />
+    <button @click="increaseProgress">Increase Progress</button>
+  </div>
 
 
 </template>
