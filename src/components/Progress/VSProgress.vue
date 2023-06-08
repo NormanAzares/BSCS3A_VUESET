@@ -13,7 +13,7 @@
   </template>
   <script>
   export default {
-    name: 'Progress',
+    name: 'VSProgress',
     props: {
       value: {
         type: [Number, String],

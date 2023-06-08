@@ -5,7 +5,7 @@
   
   <script>
   export default {
-    name: 'Dividers',
+    name: 'VSDividers',
     props: {
       color: {
         type: String,

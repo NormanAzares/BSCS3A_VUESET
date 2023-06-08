@@ -6,7 +6,7 @@
 </template>
 <script>
 export default {
-    name: 'Button',
+    name: 'VSButton',
     props: {
         label: {
             type: String,

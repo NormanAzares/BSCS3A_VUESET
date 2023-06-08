@@ -1,6 +1,9 @@
 {
   "name": "vueset-component",
   "version": "0.0.1",
+  "description": "Vueset - A Vue 3 component library",
+  "repository": "https://github.com/NormanAzares/BSCS3A_VUESET.git",
+  "author": "BSCS3A_CS202_VUESET_GROUP",
   "main": "./dist/vueset-component.umd.js",
   "module": "./dist/vueset-component.mjs",
   "exports": {
@@ -17,13 +20,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "vue": "^3.3.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.3.8"
+    "vite": "^4.3.8",
+    "vitepress": "^1.0.0-beta.1"
   }
 }

@@ -1,16 +1,12 @@
 <template>
-  
-  
-
-
-
-
+<VSButton label="Primary"></VSButton>
 
 </template>
 
 <script>
 
 </script>
+
 
 <style scoped>
 header {
@@ -40,3 +36,5 @@ header {
   }
 }
 </style>
+
+

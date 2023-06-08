@@ -10,6 +10,7 @@
   
   <script>
   export default {
+    name: 'VSRadioBox',
     props: {
       label: {
         type: String,

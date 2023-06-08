@@ -6,7 +6,7 @@
   
   <script>
   export default {
-    name: 'Form',
+    name: 'VSForm',
     props: {
       type: {
         type: String,

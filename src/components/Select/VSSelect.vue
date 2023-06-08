@@ -6,7 +6,7 @@
   
   <script>
   export default {
-    name: 'Select',
+    name: 'VSSelect',
     props: {
       type: {
         type: String,

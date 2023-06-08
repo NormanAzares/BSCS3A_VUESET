@@ -23,7 +23,7 @@
 
   <script>
   export default {
-    name: 'Textarea',
+    name: 'VSTextarea',
     props: {
       modelValue: {
         type: String,

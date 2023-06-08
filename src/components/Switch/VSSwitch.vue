@@ -22,7 +22,7 @@
 </template>
 <script>
 export default {
-  name: 'Switch',
+  name: 'VSSwitch',
   props: {
     modelValue: {
       type: Boolean,
