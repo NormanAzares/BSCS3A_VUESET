@@ -23,6 +23,9 @@ The button component is a simple customizable button.
 <div style="margin-bottom: 16px">
   <VSButton label="Text" type="text" />
 </div>
+<div>
+  <VSButton label="Disabled" type="text" disabled />
+</div>
 ```
 
 <ButtonExample />

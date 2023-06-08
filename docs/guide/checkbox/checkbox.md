@@ -1,4 +1,4 @@
-# Checkbox
+# VSCheckbox
 
 A customizable accessible checkbox
 

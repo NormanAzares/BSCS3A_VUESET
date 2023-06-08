@@ -1,4 +1,5 @@
 export { default as VSButton } from './Button/VSButton.vue';
+export { default as VSCheckBox } from './CheckBox/VSCheckBox.vue';
 export { default as VSSelect } from './Select/VSSelect.vue';
 export { default as VSRadioBox } from './RadioBox/VSRadioBox.vue';
 export { default as VSSwitch } from './Switch/VSSwitch.vue';

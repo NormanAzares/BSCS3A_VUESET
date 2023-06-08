@@ -97,7 +97,7 @@ button.is-outlined {
 button.is-text {
     background-color: transparent;
     border: none;
-    color: black;
+    color: rgb(62, 62, 226);
 }
 
 span {
@@ -119,6 +119,6 @@ button:disabled::before {
 }
 
 button:disabled>span {
-    color: #757575;
+    color: rgb(122, 134, 204);
 }
 </style>

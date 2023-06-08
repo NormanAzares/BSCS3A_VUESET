@@ -22,7 +22,7 @@
 </template>
 <script>
 export default {
-  name: 'VSCheckbox',
+  name: 'VSCheckBox',
   props: {
     modelValue: {
       type: Boolean,

@@ -24,20 +24,20 @@ module.exports = {
         items: getComponents(),
       },
     ],
-  }, 
+  },
 }
 
 function getComponents() {
   return [
-    { text: 'Button'},
-    { text: 'Checkbox'},
-    { text: 'Dividers'},
-    { text: 'Form'},
-    { text: 'Progress'},
-    { text: 'RadioBox'},
-    { text: 'Select'},
-    { text: 'Switch'},
-    { text: 'TextArea'},
+    { text: 'Button', link: '/guide/button/button' },
+    { text: 'Checkbox', link: '/guide/checkbox/checkbox' },
+    { text: 'Dividers' },
+    { text: 'Form' },
+    { text: 'Progress' },
+    { text: 'RadioBox' },
+    { text: 'Select' },
+    { text: 'Switch' },
+    { text: 'TextArea' },
   ]
 }
 
