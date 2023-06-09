@@ -14,7 +14,7 @@ A customizable accessible checkbox
 
 ```vue
 <p>State: {{ state }}</p>
-<Checkbox label="Checkbox" v-model="state" />
+<VSCheckBox label="Checkbox" v-model="state" />
 ```
 
 <CheckboxExample />
