@@ -16,7 +16,6 @@ coverage
 .vusrc/App.vue
 /
 /cypress/screenshots/
-src/App.vue
 
 
 # Editor directories and files

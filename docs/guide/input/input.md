@@ -14,8 +14,32 @@
 | `update:modelValue` | Triggered on native input event | `newValue`: Text on input |
 
 ```vue
-<p>Example with label - {{ text }}</p>
-<VSInput label="Example text" v-model="text" />
+
+<p>Default</p>
+<VSInput />
+
+<p>Example with label - {{ labelText }}</p>
+<VSInput label="Example text" v-model="labelText" />
+
+
+<p>Example with placeholder - {{ placeholderLabelText }}</p>
+<VSInput placeholder="Write something here" v-model="placeholderLabelText" />
+
+
+<p>Example without label - {{ noLabelText }}</p>
+<VSInput v-model="noLabelText" />
+
+
+<p>Example with required - {{ requiredText }}</p>
+<VSInput label="I am required" v-model="requiredText" required />
+
+
+<p>Disabled</p>
+<VSInput label="Oh :(" disabled />
+
+<p>Disabled with a label</p>
+<VSInput label="Oh :(" modelValue="Hello" disabled />  
+
 ```
 
 <InputExample />
