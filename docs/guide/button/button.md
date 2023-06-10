@@ -13,7 +13,7 @@ The button component is a simple customizable button.
 | :------ | :------------------------ | :------------ |
 | `click` | Triggered on button click | `$clickEvent` |
 
-<ButtonExample />
+
 ```vue
 <div style="margin-bottom: 16px">
   <VSButton label="Default" />
@@ -28,6 +28,7 @@ The button component is a simple customizable button.
   <VSButton label="Disabled" type="text" disabled />
 </div>
 ```
+<ButtonExample />
 
 <script setup>
 import ButtonExample from './ButtonExample.vue'

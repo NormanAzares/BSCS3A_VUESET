@@ -56,7 +56,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: blue;
     border: 1px solid black;
     border-radius: 8px;
     height: 16px;

@@ -1,15 +1,15 @@
 <template>
-  <Progress :value="progress" max="1" />
+  <VSProgress :value="progress" max="1" />
 </template>
 <script>
-import { Progress } from '../../../src/index'
+import { VSProgress } from '../../../src/index'
 
 let randomProgressGenerator
 
 export default {
   name: 'ProgressExample',
   components: {
-    Progress,
+    VSProgress,
   },
   data() {
     return {

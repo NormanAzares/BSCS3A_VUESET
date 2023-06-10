@@ -7,3 +7,4 @@ export { default as VSForm } from './Form/VSForm.vue';
 export { default as VSDividers } from './Dividers/VSDividers.vue';
 export { default as VSTextArea } from './TextArea/VSTextArea.vue';
 export { default as VSInput } from './Input/VSInput.vue';
+export { default as VSProgress } from './Progress/VSProgress.vue';

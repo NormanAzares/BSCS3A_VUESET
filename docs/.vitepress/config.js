@@ -32,7 +32,7 @@ function getComponents() {
   return [
     { text: 'Button', link: '/guide/button/button' },
     { text: 'Checkbox', link: '/guide/checkbox/checkbox' },
-    { text: 'Dividers' },
+    { text: 'Dividers'},
     { text: 'Form' },
     { text: 'Progress' },
     { text: 'RadioBox' },
