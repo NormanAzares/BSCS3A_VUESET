@@ -6,3 +6,4 @@ export { default as VSSwitch } from './Switch/VSSwitch.vue';
 export { default as VSForm } from './Form/VSForm.vue';
 export { default as VSDividers } from './Dividers/VSDividers.vue';
 export { default as VSTextArea } from './TextArea/VSTextArea.vue';
+export { default as VSInput } from './Input/VSInput.vue';

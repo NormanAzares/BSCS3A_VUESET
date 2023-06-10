@@ -1,6 +1,6 @@
 import * as components from './components';
 
-const componentsList = components?.default;
+const componentsList = components;
 
 const VueSetComponents = {
     install: (app, options) => {
