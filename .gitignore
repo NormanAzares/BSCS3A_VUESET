@@ -16,6 +16,8 @@ coverage
 .vusrc/App.vue
 /
 /cypress/screenshots/
+src/App.vue
+
 
 # Editor directories and files
 .vscode/*
@@ -26,4 +28,4 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-
+src/App.vue

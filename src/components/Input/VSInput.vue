@@ -86,7 +86,7 @@ export default {
     height: 48px;
     width: 100%;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid blue;
     border-radius: 4px;
     background-color: transparent;
     font-size: 16px;
@@ -145,7 +145,7 @@ export default {
     cursor: not-allowed;
     border-color: #757575;
     color: #757575;
-    background-color: #e0e0e0;
+    background-color: #939edf;
 }
 
 .c-Input__input:disabled+.c-Input__label {

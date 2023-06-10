@@ -2,7 +2,7 @@
  * This can be used as an example
  * https://github.com/vuejs/vitepress/blob/master/docs/.vitepress/config.js
  */
-export default{
+export default {
   lang: 'en-US',
   title: "VueSet",
   description: "A Vue 3 Component Library",
@@ -32,8 +32,9 @@ function getComponents() {
   return [
     { text: 'Button', link: '/guide/button/button' },
     { text: 'Checkbox', link: '/guide/checkbox/checkbox' },
-    { text: 'Dividers'},
+    { text: 'Dividers' },
     { text: 'Form' },
+    { text: 'Input', link: '/guide/input/input' },
     { text: 'Progress' },
     { text: 'RadioBox' },
     { text: 'Select' },

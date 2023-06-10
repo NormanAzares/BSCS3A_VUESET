@@ -1,40 +1,40 @@
 <template>
   <div style="margin-bottom: 16px">
     <p>Default</p>
-    <Input />
+    <VSInput />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example with label - {{ labelText }}</p>
-    <Input label="Example text" v-model="labelText" />
+    <VSInput label="Example text" v-model="labelText" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example with placeholder - {{ placeholderLabelText }}</p>
-    <Input placeholder="Write something here" v-model="placeholderLabelText" />
+    <VSInput placeholder="Write something here" v-model="placeholderLabelText" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example without label - {{ noLabelText }}</p>
-    <Input v-model="noLabelText" />
+    <VSInput v-model="noLabelText" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example with required - {{ requiredText }}</p>
-    <Input label="I am required" v-model="requiredText" required />
+    <VSInput label="I am required" v-model="requiredText" required />
   </div>
   <div style="margin-bottom: 16px">
     <p>Disabled</p>
-    <Input label="Oh :(" disabled />
+    <VSInput label="Oh :(" disabled />
   </div>
   <div style="margin-bottom: 16px">
     <p>Disabled with a label</p>
-    <Input label="Oh :(" modelValue="Hello" disabled />
+    <VSInput label="Oh :(" modelValue="Hello" disabled />
   </div>
 </template>
 <script>
-import { Input } from '../../../src/index'
+import { VSInput } from '../../../src/components/index'
 
 export default {
   name: 'InputExample',
   components: {
-    Input,
+    VSInput,
   },
   data() {
     return {

@@ -14,8 +14,8 @@
 | `update:modelValue` | Triggered on native input event | `newValue`: Text on input |
 
 ```vue
-<p>{{ text }}</p>
-<Input label="Example text" v-model="text" />
+<p>Example with label - {{ text }}</p>
+<VSInput label="Example text" v-model="text" />
 ```
 
 <InputExample />
