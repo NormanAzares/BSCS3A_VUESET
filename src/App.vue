@@ -1,6 +1,7 @@
 <template>
   <VSButton label="Primary"></VSButton>
   <VSProgress :value="progress" max="1" />
+  <VSButton label="Secondary"></VSButton>
 </template>
 
 
