@@ -2,11 +2,12 @@
  * This can be used as an example
  * https://github.com/vuejs/vitepress/blob/master/docs/.vitepress/config.js
  */
-module.exports = {
+export default{
   lang: 'en-US',
   title: "VueSet",
   description: "A Vue 3 Component Library",
   themeConfig: {
+    logo: '/logo.svg',
     docsDir: 'docs',
     nav: [
       {

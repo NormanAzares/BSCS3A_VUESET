@@ -90,8 +90,8 @@ button.is-default {
 
 button.is-outlined {
     background-color: transparent;
-    border: 1px solid rgb(7, 23, 247);
-    color: black;
+    border: 1px solid black;
+    color: rgb(62, 62, 226);
 }
 
 button.is-text {
