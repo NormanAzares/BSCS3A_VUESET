@@ -19,8 +19,16 @@ The switch provides you with a different kind of checkbox
 
 ## Examples 
 ```vue
-<p>State: {{ state }}</p>
-<VSSwitch label="Switch" v-model="state" />
+  <div style="margin-bottom: 16px">
+    <p>State: {{ state }}</p>
+    <VSSwitch label="Switch" v-model="state" />
+  </div>
+  <div style="margin-bottom: 16px">
+    <VSSwitch label="Unchecked disabled" :modelValue="false" disabled />
+  </div>
+  <div style="margin-bottom: 16px">
+    <VSSwitch label="Checked disabled" :modelValue="true" disabled />
+  </div>
 ```
 
 <SwitchExample />

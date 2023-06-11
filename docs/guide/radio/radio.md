@@ -20,6 +20,11 @@ const items = [
 ```vue
 <p>{{ selectedValue }}</p>
 <VSRadioBox name="example" :items="items" v-model="selectedValue" />
+
+ 
+<p>Here is an example of a disabled radio group</p>
+<VSRadioBox name="disabled-example" :items="items" v-model="selectedValue" disabled />
+  
 ```
 
 <RadioExample />
