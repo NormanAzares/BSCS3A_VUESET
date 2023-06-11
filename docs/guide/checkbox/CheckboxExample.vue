@@ -1,7 +1,7 @@
 <template>
   <div style="margin-bottom: 16px">
-    <p>Default</p>
-    <VSCheckBox />
+      <p>Default</p>
+      <VSCheckBox />
   </div>
   <div style="margin-bottom: 16px">
     <p>State: {{ state }}</p>
