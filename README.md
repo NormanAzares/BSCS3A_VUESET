@@ -15,15 +15,30 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
 ### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
+### Running the Vueset Component Library in Locally and to Another Vue Project
+
+```sh
+npm link
+```
+
+```sh
+npm link vueset-component
+```
+
+### Setup the VitePress for Documentation of VueSet Component
+
+```sh
+npm install -D vitepress
+```
+### To Run and Open the Documentation Website for Vueset
+
+```sh
+npm run docs:dev
+```
+
+
