@@ -1,5 +1,11 @@
 # VSInput
 
+The Input component is a reusable input field component designed for use in Vue.js applications. It provides a customizable input field with a corresponding label. The component accepts several props to configure its appearance and behavior, such as the initial input value, label, placeholder, name, required status, and disabled state.
+
+The input field has a responsive design and adjusts its height and width to fit its container. It includes various visual cues and transitions, such as border color changes and label animations, to enhance the user experience. The component also supports keyboard accessibility by allowing users to focus on the input field by clicking on its associated label.
+
+The input field's value is bound to the modelValue prop, allowing two-way data binding with the parent component. When the input value changes, the component emits an update:modelValue event, enabling you to synchronize the value with the parent component.
+
 ## Props
 
 | Prop          | Description                                   | Accepted Values   | Default     |
