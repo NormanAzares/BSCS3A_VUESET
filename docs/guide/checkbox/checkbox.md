@@ -1,6 +1,7 @@
 # VSCheckbox
 
-A customizable accessible checkbox
+Users can toggle the checkbox by clicking it or using the spacebar/enter key. It supports a disabled state and allows controlling the checkbox state using the "modelValue" prop. You can provide a label for the checkbox. When the checkbox state changes, it emits an event to update the parent component. 
+
 
 ## Props
 

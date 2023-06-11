@@ -1,6 +1,8 @@
 # VSRadioBox
 
-Radio
+It provides a selectable option within a group of radio buttons. The component allows users to choose a single option by clicking on the radio button or its label. It supports essential features such as a customizable label, disabled state, and the ability to assign a specific value to each radio button. 
+
+
 
 ```js
 const items = [
