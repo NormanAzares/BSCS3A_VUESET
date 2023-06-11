@@ -1,5 +1,7 @@
 # VSTextArea
 
+The TextArea component is a versatile component that enhances the functionality of text input areas. It offers a customizable and user-friendly interface for capturing and displaying multi-line text input. The component supports features such as auto-growing to accommodate the content, resizable options, label display, placeholder text, validation, and disabled state.
+
 ## Props
 
 | Prop          | Description                                   | Accepted Values                               | Default     |
