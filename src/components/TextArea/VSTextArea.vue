@@ -124,7 +124,7 @@
     width: 100%;
     height: 100%;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid #058DF3;
     border-radius: 4px;
     background-color: #A9E5FF;
     font-size: 16px;
@@ -169,7 +169,7 @@
   }
   
   .c-Textarea__input:invalid {
-    border-color: #058DF3;
+    border-color: #4794e0;
     color: #4794e0;
   }
   
@@ -185,7 +185,7 @@
     cursor: not-allowed;
     border-color: #058DF3;
     color: #757575;
-    background-color: #6dbaee;
+    background-color: #A9E5FF;
   }
   
   .c-Textarea__input:disabled + .c-Textarea__label {

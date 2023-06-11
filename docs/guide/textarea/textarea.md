@@ -20,7 +20,7 @@ The TextArea component is a versatile component that enhances the functionality 
 
 ## Examples
 ```vue
-<div style="margin-bottom: 16px">
+    <div style="margin-bottom: 16px">
     <p>Default</p>
     <VSTextArea />
   </div>
@@ -45,15 +45,15 @@ The TextArea component is a versatile component that enhances the functionality 
   </div>
   <div style="margin-bottom: 16px">
     <p>Resize Vertical</p>
-    <VSTextArea label="Resize vertical" resize="vertical" />
+    <VSTextArea label="<Drag up and down >" resize="vertical" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Resize Horizontal</p>
-    <VSTextArea label="Resize horizontal" resize="horizontal" />
+    <VSTextArea label="<Drag left and right>" resize="horizontal" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Resize None</p>
-    <VSTextArea label="Resize none" resize="none" />
+    <VSTextArea label="<Not resizable>" resize="none" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Autogrow</p>
@@ -71,6 +71,7 @@ The TextArea component is a versatile component that enhances the functionality 
     <p>Disabled with a label</p>
     <VSTextArea label="Oh :(" disabled />
   </div>
+  
 ```
 
 <TextAreaExample />
