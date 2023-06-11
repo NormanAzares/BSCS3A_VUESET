@@ -1,14 +1,14 @@
 # VSSelect
 
-A customizable select component
+The Select component is a customizable Vue component that provides an enhanced dropdown input for selecting options. It supports various features such as customizable options, two display modes, a selected value state, disabled state, event handling, and the ability to apply custom styling.
 
 ## Props
 
 | Prop         | Description                                        | Type    | Default     |             Accepted Values                |
 | :----------- | :------------------------------------------------- | :------ | :------     | :----------------------------------------- | 
 | type         | The type of the select (CSS class)                 | String  | `'primary'` | `'light'`, `'dark'`, `'blue1'` or `'blue2'`|
-| isOutline    | Determines if the select has an outline style      | Boolean | `false`     |             `true` or `false`              |
-| isUnderlined | Determines if the select has an underlined style   | Boolean | `false`     |             `true` or `false`              |
+| isOutline    | Determines if the select has an outline style      | Boolean | `false`     |             `isOutline`                    |
+| isUnderlined | Determines if the select has an underlined style   | Boolean | `false`     |             `isUnderlined`                 |
 
 ## Example
 
