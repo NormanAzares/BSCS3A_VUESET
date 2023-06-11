@@ -38,7 +38,7 @@ npm link vueset-component
 
 ### To use the Vueset Component Library, the main.js in your VueProject should be like this
 
-![main.js](https://raw.githubusercontent.com/NormanAzares/BSCS3A_VUESET/master/src/main.js)
+[main.js](https://raw.githubusercontent.com/NormanAzares/BSCS3A_VUESET/master/src/main.js)
 
 ### Setup the VitePress for Documentation of VueSet Component
 
