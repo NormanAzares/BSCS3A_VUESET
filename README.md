@@ -1,4 +1,4 @@
-# vueset-component
+# ![Alt Text](https://raw.githubusercontent.com/NormanAzares/BSCS3A_VUESET/master/docs/logo.svg) vueset-component
 
 Purpose of this Project: CS202: Semestral Project [Component Library Vue JS implementations]
 
