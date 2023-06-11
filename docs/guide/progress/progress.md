@@ -1,4 +1,5 @@
 # VSProgress
+This component is a progress bar that visually represents the completion or progress of a task. It is implemented as a Vue.js component and dynamically updates its appearance based on the provided value and max props, indicating the current progress as a percentage. The progress bar is customizable and accessible, allowing developers to adjust its width and style according to their needs.
 
 ## Props
 

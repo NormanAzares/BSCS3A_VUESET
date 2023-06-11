@@ -1,4 +1,7 @@
 # VSSwitch
+This component is a switch toggle or checkbox that can be used in a user interface. It allows the user to toggle between two states, typically representing an on/off or true/false condition.
+
+The switch is implemented as a Vue.js component and consists of a label, an input element representing the checkbox, and a slider element that moves to indicate the current state. The appearance of the switch changes dynamically based on its state and disabled status.
 
 ## Props
 
