@@ -1,6 +1,6 @@
 # VSButton
 
-The button component is a simple customizable button.
+The VSButton component is a reusable button component designed for use in Vue.js applications. It provides a customizable button with different styles, including default, outlined, and text. The component accepts several props to configure its appearance and behavior, such as the button label, title, type, and disabled state.
 
 ## Props
 
