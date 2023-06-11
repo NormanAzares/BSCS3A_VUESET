@@ -1,6 +1,6 @@
 # VSDividers
 
-A customizable divider component
+The Dividers component in Vue.js is a customizable horizontal divider that renders a div element. It offers options to customize the color, height, and margin of the divider through props. The component dynamically computes the styles based on the prop values and applies them to the div element. With its flexibility and ease of use, the VSDividers component allows for the seamless integration of customizable dividers in Vue.js applications.
 
 ## Props
 
