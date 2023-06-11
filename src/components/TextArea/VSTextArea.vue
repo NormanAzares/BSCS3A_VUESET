@@ -126,7 +126,7 @@
     outline: none;
     border: 1px solid black;
     border-radius: 4px;
-    background-color: transparent;
+    background-color: #A9E5FF;
     font-size: 16px;
     line-height: 24px;
     color: black;
@@ -169,7 +169,7 @@
   }
   
   .c-Textarea__input:invalid {
-    border-color: #4794e0;
+    border-color: #058DF3;
     color: #4794e0;
   }
   
@@ -178,14 +178,14 @@
   }
   
   .c-Textarea__input:invalid + .c-Textarea__label {
-    color: #4794e0;
+    color: #6dbaee;
   }
   
   .c-Textarea__input:disabled {
     cursor: not-allowed;
-    border-color: #757575;
+    border-color: #058DF3;
     color: #757575;
-    background-color: #e0e0e0;
+    background-color: #6dbaee;
   }
   
   .c-Textarea__input:disabled + .c-Textarea__label {

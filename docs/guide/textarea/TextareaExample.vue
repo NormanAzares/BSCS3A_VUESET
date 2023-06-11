@@ -44,15 +44,11 @@
   </div>
   <div style="margin-bottom: 16px">
     <p>Disabled</p>
-    <VSTextArea label="Oh :(" disabled />
+    <VSTextArea  disabled />
   </div>
   <div style="margin-bottom: 16px">
     <p>Disabled with a label</p>
-    <VSTextArea
-      label="Oh :("
-      modelValue="Resize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontal"
-      disabled
-    />
+    <VSTextArea label="Oh :(" disabled />
   </div>
 </template>
 <script>
