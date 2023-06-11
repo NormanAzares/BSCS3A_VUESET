@@ -1,4 +1,6 @@
-# Progress
+# VSProgress
+
+## Props
 
 | Prop    | Description                        | Accepted Values | Default |
 | :------ | :--------------------------------- | :-------------- | :------ |
@@ -8,7 +10,7 @@
 Progress
 
 ```vue
-<Progress value="50" max="100" />
+<VSProgress value="50" max="100" />
 ```
 
 <ProgressExample />

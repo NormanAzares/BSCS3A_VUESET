@@ -1,4 +1,6 @@
-# Textarea
+# VSTextArea
+
+## Props
 
 | Prop          | Description                                   | Accepted Values                               | Default     |
 | :------------ | :-------------------------------------------- | :-------------------------------------------- | :---------- |
@@ -14,15 +16,14 @@
 | :------------------ | :------------------------------ | :--------------------------- |
 | `update:modelValue` | Triggered on native input event | `newValue`: Text on textarea |
 
-Textarea
-
+## Examples
 ```vue
 <p>State: {{ text }}</p>
-<Textarea label="Textarea" v-model="text" />
+<VSTextArea label="Textarea" v-model="text" />
 ```
 
-<TextareaExample />
+<TextAreaExample />
 
 <script setup>
-import TextareaExample from './TextareaExample.vue'
+import TextAreaExample from './TextareaExample.vue'
 </script>

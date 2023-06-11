@@ -1,11 +1,11 @@
 <template>
   <div style="margin-bottom: 16px">
     <p>Selected value: {{ selectedValue }}</p>
-    <Radio name="example" :items="items" v-model="selectedValue" />
+    <VSRadioBox name="example" :items="items" v-model="selectedValue" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Here is an example of a disabled radio group</p>
-    <Radio
+    <VSRadioBox
       name="disabled-example"
       :items="items"
       v-model="selectedValue"
@@ -14,12 +14,12 @@
   </div>
 </template>
 <script>
-import { Radio } from '../../../src/index'
+import { VSRadioBox } from '../../../src/components/index'
 
 export default {
   name: 'RadioExample',
   components: {
-    Radio,
+    VSRadioBox,
   },
   data() {
     return {

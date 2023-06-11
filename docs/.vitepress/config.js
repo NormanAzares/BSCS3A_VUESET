@@ -32,14 +32,14 @@ function getComponents() {
   return [
     { text: 'Button', link: '/guide/button/button' },
     { text: 'Checkbox', link: '/guide/checkbox/checkbox' },
-    { text: 'Dividers' },
-    { text: 'Form' },
+    { text: 'Dividers', link: '/guide/dividers/dividers' },
+    { text: 'Form', link: '/guide/form/form' },
     { text: 'Input', link: '/guide/input/input' },
-    { text: 'Progress' },
-    { text: 'RadioBox' },
-    { text: 'Select' },
-    { text: 'Switch' },
-    { text: 'TextArea' },
+    { text: 'Progress', link: '/guide/progress/progress' },
+    { text: 'RadioBox', link: '/guide/radio/radio' },
+    { text: 'Select', link: '/guide/select/select'},
+    { text: 'Switch', link: '/guide/switch/switch' },
+    { text: 'TextArea', link: 'guide/textarea/textarea' },
   ]
 }
 

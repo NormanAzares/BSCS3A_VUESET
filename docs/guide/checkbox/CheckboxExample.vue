@@ -1,5 +1,4 @@
 <template>
-  <div style="margin-bottom: 16px;">Examples</div>
   <div style="margin-bottom: 16px">
     <p>Default</p>
     <VSCheckBox />

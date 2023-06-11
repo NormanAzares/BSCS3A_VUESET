@@ -1,4 +1,6 @@
-# Switch
+# VSSwitch
+
+## Props
 
 | Prop         | Description                                   | Accepted Values   | Default     |
 | :----------- | :-------------------------------------------- | :---------------- | :---------- |
@@ -12,9 +14,10 @@
 
 The switch provides you with a different kind of checkbox
 
+## Examples 
 ```vue
 <p>State: {{ state }}</p>
-<Switch label="Switch" v-model="state" />
+<VSSwitch label="Switch" v-model="state" />
 ```
 
 <SwitchExample />

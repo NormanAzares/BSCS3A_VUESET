@@ -1,5 +1,4 @@
 <template>
-  <div style="margin-bottom: 16px;">Examples</div>
   <div style="display: flex; flex-direction: row;">
     <div style="margin-right: 16px">
       <VSButton label="Default" />

@@ -1,54 +1,54 @@
 <template>
   <div style="margin-bottom: 16px">
     <p>Default</p>
-    <Textarea />
+    <VSTextArea />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example with label - {{ labelText }}</p>
-    <Textarea label="Example text" v-model="labelText" />
+    <VSTextArea label="Example text" v-model="labelText" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example with placeholder - {{ placeholderLabelText }}</p>
-    <Textarea
+    <VSTextArea
       placeholder="Write something here"
       v-model="placeholderLabelText"
     />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example without label - {{ noLabelText }}</p>
-    <Textarea v-model="noLabelText" />
+    <VSTextArea v-model="noLabelText" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Example with required - {{ requiredText }}</p>
-    <Textarea label="I am required" v-model="requiredText" required />
+    <VSTextArea label="I am required" v-model="requiredText" required />
   </div>
   <div style="margin-bottom: 16px">
     <p>Resize Vertical</p>
-    <Textarea label="Resize vertical" resize="vertical" />
+    <VSTextArea label="Resize vertical" resize="vertical" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Resize Horizontal</p>
-    <Textarea label="Resize horizontal" resize="horizontal" />
+    <VSTextArea label="Resize horizontal" resize="horizontal" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Resize None</p>
-    <Textarea label="Resize none" resize="none" />
+    <VSTextArea label="Resize none" resize="none" />
   </div>
   <div style="margin-bottom: 16px">
     <p>Autogrow</p>
-    <Textarea label="Autogrow" autogrow />
+    <VSTextArea label="Autogrow" autogrow />
   </div>
   <div style="margin-bottom: 16px">
     <p>Autogrow no label</p>
-    <Textarea autogrow />
+    <VSTextArea autogrow />
   </div>
   <div style="margin-bottom: 16px">
     <p>Disabled</p>
-    <Textarea label="Oh :(" disabled />
+    <VSTextArea label="Oh :(" disabled />
   </div>
   <div style="margin-bottom: 16px">
     <p>Disabled with a label</p>
-    <Textarea
+    <VSTextArea
       label="Oh :("
       modelValue="Resize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontalResize horizontal"
       disabled
@@ -56,12 +56,12 @@
   </div>
 </template>
 <script>
-import { Textarea } from '../../../src/index'
+import { VSTextArea } from '../../../src/components/index'
 
 export default {
-  name: 'SwitchExample',
+  name: 'TextAreaExample',
   components: {
-    Textarea,
+    VSTextArea,
   },
   data() {
     return {

@@ -2,6 +2,8 @@
 
 The button component is a simple customizable button.
 
+## Props
+
 | Prop       | Description               | Accepted Values                 | Default     |
 | :--------- | :------------------------ | :------------------------------ | :---------- |
 | `label`    | The button's text         | -                               | `undefined` |
@@ -13,7 +15,7 @@ The button component is a simple customizable button.
 | :------ | :------------------------ | :------------ |
 | `click` | Triggered on button click | `$clickEvent` |
 
-
+## Examples
 ```vue
 <div style="margin-bottom: 16px">
   <VSButton label="Default" />

@@ -1,4 +1,6 @@
-# Input
+# VSInput
+
+## Props
 
 | Prop          | Description                                   | Accepted Values   | Default     |
 | :------------ | :-------------------------------------------- | :---------------- | :---------- |
@@ -13,6 +15,7 @@
 | :------------------ | :------------------------------ | :------------------------ |
 | `update:modelValue` | Triggered on native input event | `newValue`: Text on input |
 
+## Examples
 ```vue
 
 <p>Default</p>

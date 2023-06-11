@@ -71,7 +71,7 @@
   
   /* Outline style */
   .outline {
-    border: 2px solid #fff;
+    border: 2px solid #a0baff;
   }
   
   /* Underlined style */

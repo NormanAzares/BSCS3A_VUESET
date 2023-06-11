@@ -2,7 +2,7 @@
   <VSProgress :value="progress" max="1" />
 </template>
 <script>
-import { VSProgress } from '../../../src/index'
+import { VSProgress } from '../../../src/components/index'
 
 let randomProgressGenerator
 

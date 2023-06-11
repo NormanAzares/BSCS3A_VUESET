@@ -29,6 +29,9 @@
     <p>Disabled with a label</p>
     <VSInput label="Oh :(" modelValue="Hello" disabled />
   </div>
+  <VSDividers color="light" margin="20px"></VSDividers>
+  <VSRadioBox></VSRadioBox>
+  
 </template>
 
 

@@ -2,6 +2,8 @@
 
 A customizable accessible checkbox
 
+## Props
+
 | Prop         | Description                                   | Accepted Values   | Default     |
 | :----------- | :-------------------------------------------- | :---------------- | :---------- |
 | `modelValue` | A variable for you to hook into using v-model | -                 | `undefined` |
@@ -12,6 +14,7 @@ A customizable accessible checkbox
 | :------------------ | :-------------------------------- | :------------------------ |
 | `update:modelValue` | Triggered on checked state change | `newValue`: Checked state |
 
+## Examples
 ```vue
 <p>State: {{ state }}</p>
 <VSCheckBox label="Checkbox" v-model="state" />

@@ -1,4 +1,4 @@
-# Radio
+# VSRadioBox
 
 Radio
 
@@ -17,7 +17,7 @@ const items = [
 
 ```vue
 <p>{{ selectedValue }}</p>
-<Radio name="example" :items="items" v-model="selectedValue" />
+<VSRadioBox name="example" :items="items" v-model="selectedValue" />
 ```
 
 <RadioExample />
