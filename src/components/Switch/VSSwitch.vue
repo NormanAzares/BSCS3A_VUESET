@@ -1,19 +1,8 @@
 <template>
-  <label
-    class="c-Switch"
-    v-bind="switchAttributes"
-    @keydown.space.prevent
-    @keyup.enter="onTrigger()"
-    @keyup.space="onTrigger()"
-  >
-    <input
-      v-model="state"
-      aria-hidden="true"
-      class="c-Switch__input"
-      type="checkbox"
-      :disabled="disabled"
-      @click="onTrigger()"
-    />
+  <label class="c-Switch" v-bind="switchAttributes" @keydown.space.prevent @keyup.enter="onTrigger()"
+    @keyup.space="onTrigger()">
+    <input v-model="state" aria-hidden="true" class="c-Switch__input" type="checkbox" :disabled="disabled"
+      @click="onTrigger()" />
     <div class="c-Switch__slider" />
     <span v-if="label" class="c-Switch__label">
       {{ label }}
@@ -103,7 +92,7 @@ export default {
   width: 16px;
   left: 2px;
   top: 2px;
-  background-color: black;
+  background-color: blue;
   transition: 0.15s;
 }
 
@@ -114,16 +103,16 @@ export default {
 
 /* Checked */
 
-.c-Switch__input:checked + .c-Switch__slider {
+.c-Switch__input:checked+.c-Switch__slider {
   border-color: #101010;
-  background-color: #101010;
+  background-color: rgb(82, 151, 255);
 }
 
-.c-Switch__input:focus + .c-Switch__slider {
+.c-Switch__input:focus+.c-Switch__slider {
   box-shadow: 0 0 1px #101010;
 }
 
-.c-Switch__input:checked + .c-Switch__slider:before {
+.c-Switch__input:checked+.c-Switch__slider:before {
   background-color: white;
   transform: translate(24px);
 }
@@ -135,22 +124,20 @@ export default {
 }
 
 .c-Switch[aria-disabled='true'] .c-Switch__slider {
-  border: 2px solid #757575;
-  background-color: #e0e0e0;
+  border: 2px solid blue;
+  background-color: #b3acda;
 }
 
-.c-Switch[aria-disabled='true'] .c-Switch__input:checked + .c-Switch__slider {
-  border: 2px solid #757575;
-  background-color: #757575;
+.c-Switch[aria-disabled='true'] .c-Switch__input:checked+.c-Switch__slider {
+  border: 2px solid #3a04ff;
+  background-color: #0085ad;
 }
 
 .c-Switch[aria-disabled='true'] .c-Switch__slider:before {
   background-color: #757575;
 }
 
-.c-Switch[aria-disabled='true']
-  .c-Switch__input:checked
-  + .c-Switch__slider:before {
+.c-Switch[aria-disabled='true'] .c-Switch__input:checked+.c-Switch__slider:before {
   background-color: #e0e0e0;
   transform: translate(24px);
 }
