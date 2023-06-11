@@ -1,7 +1,7 @@
 <template>
   <div style="display: flex; flex-direction: row;">
     <div style="margin-right: 16px">
-      <VSSelect type="primary" isOutline>
+      <VSSelect type="primary">
         <option value="item1">Item 1</option>
         <option value="item2">Item 2</option>
         <option value="item3">Item 3</option>

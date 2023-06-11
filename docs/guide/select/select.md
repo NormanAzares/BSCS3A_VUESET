@@ -13,7 +13,7 @@ The Select component is a customizable Vue component that provides an enhanced d
 ## Example
 
 ```vue
-<VSSelect type="primary" isOutline>
+<VSSelect type="primary">
     <option value="item1">Item 1</option>
     <option value="item2">Item 2</option>
     <option value="item3">Item 3</option>
